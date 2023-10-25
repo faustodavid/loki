@@ -44,7 +44,7 @@ Follow those instructions to [install logstash](https://www.elastic.co/guide/en/
 ```bash
 git clone git@github.com:elastic/logstash.git
 cd logstash
-git checkout tags/v7.16.1
+git checkout tags/v8.10.4
 export LOGSTASH_PATH="$(pwd)"
 export GEM_PATH="$LOGSTASH_PATH/vendor/bundle/jruby/2.5.0"
 export GEM_HOME="$LOGSTASH_PATH/vendor/bundle/jruby/2.5.0"
